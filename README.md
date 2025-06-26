@@ -17,4 +17,11 @@ i'm learning the GITHUB
 13. git remote -v -> to verify the repo link.
 14. git branch -> to check the branch.
 15. git branch -M main -> to rename main branch.
-16.  
+16. git push -u origin main -> where -u stands for upstream it means we r letting it knoe that we just want to work on origin main for a long time so from next time we can only  "git push" to push the codes to repo.  
+-> Now if we are doing grp project / to add new feature, we need to do different works and we cant wait for others to complete 1st so we make new branches and do our work in that perticular branch.
+17. git checkout -b <branchname> -> to create a new branch(To work in grp).
+18. git checkout <branchname> -> to navigate (In which branch u want to go).
+19. git branch -d <branchname> -> to delete branch.
+-> Now work has done! we need to merge the code to the main branch.
+20. git diff <branchname> -> to get the diff of commits,branches,files n more of currant and the other branch's.
+21. git merge <branchname> -> to merge the currant and the other branch.
